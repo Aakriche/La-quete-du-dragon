@@ -1,0 +1,89 @@
+.roue {
+
+height : 300px;
+width : 150px;
+display: block;
+position: relative;
+border: black solid thin;
+
+
+}
+
+#green {
+    background: rgb(74,249,9);
+    background: linear-gradient(45deg, rgb(76, 199, 31) 33%, rgb(12, 110, 9) 61%);
+    top: -880px;
+    left: -150px;
+    border-radius: 200px 0 0 200px;
+    box-shadow:0px 5px 5px black;
+}
+
+#red {
+    background: rgb(249,25,9);
+    background: linear-gradient(45deg, rgba(249,25,9,1) 33%, rgba(171,60,8,1) 59%); 
+    top: 400px;
+    left: 1445px;
+    border-radius: 0 200px 200px 0;
+    box-shadow:5px 0px 5px black;
+
+    
+    
+
+
+}
+
+.redanim {
+animation: subril 10s ease-in-out;
+
+}
+
+@keyframes subril {
+    0% {
+        box-shadow:20px 0px 5px black;
+    }
+    20% {
+        box-shadow:5px 0px 5px black
+    }
+    30% {
+        box-shadow: 20px 0px 5px black;
+    }
+    40% {
+        box-shadow:5px 0px 5px black
+    }
+    50% {
+        box-shadow: 20px 0px 5px black;
+    }
+    60% {
+        box-shadow:5px 0px 5px black
+    }
+    70% {
+        box-shadow: 20px 0px 5px black;
+    }
+    80% {
+        box-shadow:5px 0px 5px black
+    }
+    90% {
+        box-shadow: 20px 0px 5px black;
+    }
+    100% {
+        box-shadow:5px 0px 5px black;
+    }
+}
+
+#blue {
+    background: rgb(9,110,249);
+    background: linear-gradient(45deg, rgba(9,110,249,1) 33%, rgba(27,8,171,1) 59%);
+    top: 700px;
+    left: -150px;
+    border-radius: 200px 0 0 200px;
+    box-shadow:0px 5px 5px black;
+}
+
+#yellow {
+    background: rgb(249,198,9);
+    background: linear-gradient(45deg, rgba(249,198,9,1) 30%, rgba(171,117,8,1) 59%); 
+    top: -570px;
+    left: 1445px;
+    border-radius:0 200px 200px 0;
+    box-shadow:5px 0px 5px black;
+}

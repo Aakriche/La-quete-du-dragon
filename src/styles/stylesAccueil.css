@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: "Peaches and Cream Regular";
+    src: local("Peaches and Cream Regular"),
+      url("../fonts/Peaches and Cream Regular.otf") format("truetype");
+    font-weight: normal;
+  }
+  
+
+
+.Accueil {
+    width : 721px;
+    height: 1024px;
+    background-image: url('../assets/DragAcc.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+
+
+.arrow {
+    width : 50px;
+}
+
+#arrowleft {
+    display: block;
+    position: relative;
+    top: -40px;
+    left: 620px;
+}
+
+#arrowright {
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 38px;
+}
