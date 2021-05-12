@@ -1,9 +1,72 @@
 .Village {
-    width : 1447px;
-    height: 1024px;
+    width : 1302px;
+    height: 921px;
     background-image: url('../assets/Dragon_Choix01-page-003.jpg');
     background-position: center;
     background-size: cover;
     margin: auto;
+    position: absolute;
+    display: block;
+}
+
+.pageIG {
+    width : 1302px;
+    height: 921px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    position: absolute;
+    display: block;
+}
+
+
+.meuniereUn {
+
+background-image: url('../assets/meuniere1.jpg');
+
+}
+
+.meuniereDeux {
+    
+    background-image: url('../assets/meuniere2.jpg');
+    
+}
+
+.meuniereTrois {
+   
+    background-image: url('../assets/meuniere3.jpg');
+   
+}
+
+.grangeUn {
+   
+    background-image: url('../assets/grange1.jpg');
+    
+}
+
+.grangeDeux {
+   
+    background-image: url('../assets/grange2.jpg');
+  
+}
+
+.grangeTrois {
+   
+    background-image: url('../assets/grange3.jpg');
+   
+}
+
+.cartographeUn {
+   
+    background-image: url('../assets/cartographe1.jpg');
+   
+}
+
+.cartographeDeux {
+    background-image: url('../assets/cartographe2.jpg');  
+}
+
+.cartographeTrois {
+    background-image: url('../assets/cartographe3.jpg');  
 }
 

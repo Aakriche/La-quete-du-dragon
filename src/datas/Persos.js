@@ -7,7 +7,7 @@ const persos = [
     {
 		name: 'Sachat',
 		ind:0,
-    target: 0,
+    target: 3,
     cover: sachat
     },
     {

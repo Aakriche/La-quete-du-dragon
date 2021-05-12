@@ -1,10 +1,10 @@
 .begin {
     position: relative;
     display: block;
-    left: 100px;
-    top: 185px;
-    width : 500px;
-    height: 280px;
+    left: 95px;
+    top: 170px;
+    width : 450px;
+    height: 252px;
     border-radius: 50%;
 
 }
@@ -16,8 +16,8 @@
 .suite {
     position: relative;
     display: block;
-    left: 1320px;
-    top: 365px;
+    left: 1175px;
+    top: 330px;
     width : 100px;
     height: 100px;
     border-radius: 50%;
@@ -25,6 +25,116 @@
 
 }
 
-.suite:hover {
+.suite:hover, .unePageHaut:hover, .deuxPagesHaut:hover, .unePageMilieu:hover, .deuxPagesMilieu:hover, .unePageBas:hover, .deuxPagesBas:hover {
     box-shadow: 1px 1px 20px orange;
 }
+
+.lienHaut {
+    position: absolute;
+    display: block;
+    box-shadow: 1px 1px 10px orange;
+    z-index: 999;
+    width: 600px;
+    height: 280px;
+    top: 10px;
+    left: 695px;
+
+}
+.lienMilieu {
+    position: absolute;
+    display: block;
+    box-shadow: 1px 1px 10px orange;
+    z-index: 999;
+    width: 600px;
+    height: 280px;
+    top: 310px;
+    left: 695px;
+
+}
+
+.lienBas {
+    position: absolute;
+    display: block;
+    box-shadow: 1px 1px 10px orange;
+    z-index: 999;
+    width: 600px;
+    height: 280px;
+    top: 615px;
+    left: 695px;
+
+}
+
+.unePageHaut {
+    position: absolute;
+    display: block;
+    left: 1092px;
+    top: 190px;
+    width : 100px;
+    height: 50px;
+    border-radius: 30% / 50%;
+    z-index: 999;
+
+}
+
+.deuxPagesHaut {
+    position: absolute;
+    display: block;
+    left: 1092px;
+    top: 247px;
+    width : 100px;
+    height: 50px;
+    border-radius: 30% / 50%;
+    z-index: 999;
+
+}
+
+
+
+.unePageMilieu {
+    position: absolute;
+    display: block;
+    left: 1092px;
+    top: 487px;
+    width : 100px;
+    height: 50px;
+    border-radius: 30% / 50%;
+    z-index: 999;
+
+}
+
+.deuxPagesMilieu {
+    position: absolute;
+    display: block;
+    left: 1092px;
+    top: 547px;
+    width : 100px;
+    height: 50px;
+    border-radius: 30% / 50%;
+    z-index: 999;
+
+}
+
+.unePageBas {
+    position: absolute;
+    display: block;
+    left: 1092px;
+    top: 787px;
+    width : 100px;
+    height: 50px;
+    border-radius: 30% / 50%;
+    z-index: 999;
+
+}
+
+.deuxPagesBas {
+    position: absolute;
+    display: block;
+    left: 1092px;
+    top: 847px;
+    width : 100px;
+    height: 50px;
+    border-radius: 30% / 50%;
+    z-index: 999;
+
+}
+
