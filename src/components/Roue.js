@@ -4,47 +4,34 @@ import Item from './Item'
 import persos from "../datas/Persos"
 import greenItems from "../datas/GreenItems"
 import blueItems from "../datas/BlueItems"
-import Slide from "./Slide"
 
 
 
-class Roue extends React.Component {
 
-   
+function Roue ({color, anim, index, clickItem }) {
 
-    constructor (props){
+ 
 
-        super(props)
-        this.color = ""
-        this.anim = null
-        this.state = {
-            count: 0
-        };
         
-    }
-
-
-    
-
-    render() {
-
        
         let datas
+        
 
-        if (this.props.color === "red"){
+        if (color === "red"){
             datas = persos
-        }else if (this.props.color === "green"){
+        }else if (color === "green"){
             datas = greenItems
         }else {
             datas = blueItems
         }
 
-        return <div className={`roue ${this.props.anim}`}  id={this.props.color} 
-        // onClick={() => Slide}
+
+        return <div className={`roue ${anim}`}  id={color}
+        onClick={() => clickItem(index === datas.length ? 0 : index +1)}
         >
-            {datas.map(({ color, ind, cover, name, target}) => (
+            {datas.map(({ color, cover, name, target}) => (
         <Item colorItem={color} 
-        ind={ind}
+        ind={index}
         cover={cover}
         name ={name}
         target={target}
@@ -54,7 +41,7 @@ class Roue extends React.Component {
        
         </div>
                 
-    }
+    
 }
 
 export default Roue;

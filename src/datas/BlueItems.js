@@ -1,7 +1,7 @@
-import corde from '../assets/arrowl.png'
+import corde from '../assets/Corde.png'
 import carte from '../assets/Carte.png'
 import pierre from '../assets/Pierre.png'
-import pansement from '../assets/arrowl.png'
+import pansement from '../assets/Pansement.png'
 
 const blueItems = [
 
@@ -29,12 +29,7 @@ const blueItems = [
         target: 4,
         cover: pansement
     },
-    {
-		name: ' ',
-		ind: '0',
-        target: 0,
-        cover: corde
-    }
+
 
 
 ]

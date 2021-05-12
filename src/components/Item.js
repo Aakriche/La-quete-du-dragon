@@ -12,7 +12,7 @@ function Item ({colorItem, ind, name, target, cover }){
 
         return (
 
-            <div key={target.toString()} className={`item ${ind === 0 && 'visible'}` }
+            <div key={target.toString()} className={`item ${ind === target && 'visible'}` }
               id={colorItem}>
               <img alt={name} 
               src={cover}/>

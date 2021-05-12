@@ -1,6 +1,6 @@
 .Choix {
-    width : 1447px;
-    height: 1024px;
+    width : 1302px;
+    height: 921px;
     background-image: url('../assets/Dragon_Choix01-page-002.jpg');
     background-position: center;
     background-size: cover;
@@ -15,7 +15,7 @@
 
     display: block;
     position: relative;
-    top: 440px;
-    left: 1350px;
+    top: 400px;
+    left: 1205px;
 
 }

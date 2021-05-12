@@ -28,12 +28,6 @@ const greenItems = [
 		ind: '4',
         target: 4,
         cover: pansement
-    },
-    {
-		name: ' ',
-		ind: '0',
-        target: 0,
-        cover: corde
     }
 
 

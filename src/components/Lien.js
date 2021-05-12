@@ -19,7 +19,7 @@ class Lien extends React.Component {
     render() {
 
         return <div>
-            <Link to={this.props.lienvers}><div className={this.props.stylelien}></div></Link>
+            <Link to={this.props.lienvers}><div className={this.props.stylelien} id={this.props.page}></div></Link>
             </div>
             
                
