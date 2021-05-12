@@ -12,9 +12,9 @@ function GrangeUn ({blueIndex, clickBlueItem, redIndex, clickRedItem, greenIndex
 
 
     return <div className="Game">
-        <div className="grangeUn">
-            <Lien stylelien='unePageHaut' lienvers="/GrangeDeux" />
-            <Lien stylelien='deuxPagesHaut' lienvers="/GrangeTrois" />
+        <div className="grangeUn pageIG">
+            <Lien stylelien='unePageMilieu' lienvers="/GrangeDeux" />
+            <Lien stylelien='deuxPagesMilieu' lienvers="/GrangeTrois" />
             <Roue color="blue" index={blueIndex} clickItem={clickBlueItem} />
             <Roue color="red" index={redIndex} clickItem={clickRedItem}/>
             <Roue color="yellow" index={yellowIndex} clickItem={clickYellowItem}/>

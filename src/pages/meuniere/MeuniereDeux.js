@@ -12,8 +12,8 @@ function MeuniereDeux ({blueIndex, clickBlueItem, redIndex, clickRedItem, greenI
 
 
     return <div className="Game">
-        <div className="meuniereDeux">
-            <Lien stylelien='deuxPagesHaut' lienvers="/Forêt" />
+        <div className="meuniereDeux pageIG">
+            <Lien stylelien='deuxPagesHaut' lienvers="/Foret" />
             <Roue color="blue" index={blueIndex} clickItem={clickBlueItem} />
             <Roue color="red" index={redIndex} clickItem={clickRedItem}/>
             <Roue color="yellow" index={yellowIndex} clickItem={clickYellowItem}/>

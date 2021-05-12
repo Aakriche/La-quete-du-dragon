@@ -8,16 +8,17 @@ import Lien from "../../components/Lien"
 
 
 
-function MeuniereTrois ({blueIndex, clickBlueItem, redIndex, clickRedItem, greenIndex, clickGreenItem, yellowIndex, clickYellowItem}) {
+function CartographeUn ({blueIndex, clickBlueItem, redIndex, clickRedItem, greenIndex, clickGreenItem, yellowIndex, clickYellowItem}) {
 
 
     return <div className="Game">
-        <div className="meuniereTrois pageIG">
-            <Lien stylelien='deuxPagesHaut' lienvers="/Foret" />
+        <div className="cartographeUn pageIG">
+            <Lien stylelien='unePageBas' lienvers="/CartographeDeux" />
+            <Lien stylelien='deuxPagesBas' lienvers="/CartographeTrois" />
             <Roue color="blue" index={blueIndex} clickItem={clickBlueItem} />
             <Roue color="red" index={redIndex} clickItem={clickRedItem}/>
             <Roue color="yellow" index={yellowIndex} clickItem={clickYellowItem}/>
-            <Roue color="green" anim="leftanim" index={greenIndex} clickItem={clickGreenItem}/>
+            <Roue color="green" index={greenIndex} clickItem={clickGreenItem}/>
         </div>
         </div>
       
@@ -27,4 +28,4 @@ function MeuniereTrois ({blueIndex, clickBlueItem, redIndex, clickRedItem, green
     
 }
 
-export default MeuniereTrois;
+export default CartographeUn;

@@ -9,58 +9,64 @@
     display: block;
 }
 
-.meuniereUn {
+.pageIG {
     width : 1302px;
     height: 921px;
-    background-image: url('../assets/meuniere1.jpg');
     background-position: center;
     background-size: cover;
     margin: auto;
     position: absolute;
     display: block;
+}
+
+
+.meuniereUn {
+
+background-image: url('../assets/meuniere1.jpg');
+
 }
 
 .meuniereDeux {
-    width : 1302px;
-    height: 921px;
+    
     background-image: url('../assets/meuniere2.jpg');
-    background-position: center;
-    background-size: cover;
-    margin: auto;
-    position: absolute;
-    display: block;
+    
 }
 
 .meuniereTrois {
-    width : 1302px;
-    height: 921px;
+   
     background-image: url('../assets/meuniere3.jpg');
-    background-position: center;
-    background-size: cover;
-    margin: auto;
-    position: absolute;
-    display: block;
+   
 }
 
 .grangeUn {
-    width : 1302px;
-    height: 921px;
+   
     background-image: url('../assets/grange1.jpg');
-    background-position: center;
-    background-size: cover;
-    margin: auto;
-    position: absolute;
-    display: block;
+    
 }
 
-.cartographe {
-    width : 1302px;
-    height: 921px;
-    background-image: url('../assets/Dragon_Choix01-page-004.jpg');
-    background-position: center;
-    background-size: cover;
-    margin: auto;
-    position: absolute;
-    display: block;
+.grangeDeux {
+   
+    background-image: url('../assets/grange2.jpg');
+  
+}
+
+.grangeTrois {
+   
+    background-image: url('../assets/grange3.jpg');
+   
+}
+
+.cartographeUn {
+   
+    background-image: url('../assets/cartographe1.jpg');
+   
+}
+
+.cartographeDeux {
+    background-image: url('../assets/cartographe2.jpg');  
+}
+
+.cartographeTrois {
+    background-image: url('../assets/cartographe3.jpg');  
 }
 

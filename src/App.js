@@ -1,12 +1,16 @@
 import Accueil from './pages/Accueil';
 import Game from './pages/Game';
 import Village from './pages/Village';
+import Foret from './pages/Foret';
 import MeuniereUn from './pages/meuniere/MeuniereUn';
 import MeuniereDeux from './pages/meuniere/MeuniereDeux';
 import MeuniereTrois from './pages/meuniere/MeuniereTrois';
 import GrangeUn from './pages/grange/GrangeUn';
 import GrangeDeux from './pages/grange/GrangeDeux';
 import GrangeTrois from './pages/grange/GrangeTrois';
+import CartographeUn from './pages/cartographe/CartographeUn';
+import CartographeDeux from './pages/cartographe/CartographeDeux';
+import CartographeTrois from './pages/cartographe/CartographeTrois';
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import { useState } from 'react'
@@ -40,6 +44,14 @@ function App() {
           <Route path="/GrangeDeux" render={(props) => (<GrangeDeux {...props} redIndex={redIndex} greenIndex={greenIndex} blueIndex={blueIndex} yellowIndex={yellowIndex}
           clickRedItem={clickRedItem} clickBlueItem={clickBlueItem} clickGreenItem={clickGreenItem}clickYellowItem={clickYellowItem} /> )} />
           <Route path="/GrangeTrois" render={(props) => (<GrangeTrois {...props} redIndex={redIndex} greenIndex={greenIndex} blueIndex={blueIndex} yellowIndex={yellowIndex}
+          clickRedItem={clickRedItem} clickBlueItem={clickBlueItem} clickGreenItem={clickGreenItem}clickYellowItem={clickYellowItem} /> )} />
+          <Route path="/CartographeUn" render={(props) => (<CartographeUn {...props} redIndex={redIndex} greenIndex={greenIndex} blueIndex={blueIndex} yellowIndex={yellowIndex}
+          clickRedItem={clickRedItem} clickBlueItem={clickBlueItem} clickGreenItem={clickGreenItem}clickYellowItem={clickYellowItem} /> )} />
+          <Route path="/CartographeDeux" render={(props) => (<CartographeDeux {...props} redIndex={redIndex} greenIndex={greenIndex} blueIndex={blueIndex} yellowIndex={yellowIndex}
+          clickRedItem={clickRedItem} clickBlueItem={clickBlueItem} clickGreenItem={clickGreenItem}clickYellowItem={clickYellowItem} /> )} />
+          <Route path="/CartographeTrois" render={(props) => (<CartographeTrois {...props} redIndex={redIndex} greenIndex={greenIndex} blueIndex={blueIndex} yellowIndex={yellowIndex}
+          clickRedItem={clickRedItem} clickBlueItem={clickBlueItem} clickGreenItem={clickGreenItem}clickYellowItem={clickYellowItem} /> )} />
+          <Route path="/Foret" render={(props) => (<Foret {...props} redIndex={redIndex} greenIndex={greenIndex} blueIndex={blueIndex} yellowIndex={yellowIndex}
           clickRedItem={clickRedItem} clickBlueItem={clickBlueItem} clickGreenItem={clickGreenItem}clickYellowItem={clickYellowItem} /> )} />
         <Route path="/" component={() => <div>Erreur 404</div>} />
       </Switch>

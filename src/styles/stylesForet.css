@@ -1,0 +1,73 @@
+.Foret {
+    width : 1302px;
+    height: 921px;
+    background: black;
+    margin: auto;
+    position: absolute;
+    display: block;
+}
+
+
+.finalBox > a  {
+    display: block;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: right;
+    
+}
+
+.fondblanc {
+    background-color: rgb(143, 206, 248);
+}
+
+.fondblanc > a > img{
+    display: block;
+    margin: auto;
+}
+
+
+.logoDragon {
+    display: block;
+    margin: auto;
+    
+}
+
+/* ANIMATION */
+
+.logoAnim {
+    animation: logoAnim 0.8s ease-in-out;
+}
+
+
+
+@keyframes logoAnim {
+0% {
+    transform: translate(-1000px);
+}
+
+100% {
+    transform: translate(0px);
+}
+
+}
+
+.gameAnim {
+    animation: gameAnim 0.8s ease-in-out;
+}
+
+
+
+@keyframes gameAnim {
+0% {
+    transform: translate(1000px);
+}
+
+100% {
+    transform: translate(0px);
+}
+
+}
+

@@ -12,7 +12,7 @@ function MeuniereUn ({blueIndex, clickBlueItem, redIndex, clickRedItem, greenInd
 
 
     return <div className="Game">
-        <div className="meuniereUn">
+        <div className="meuniereUn pageIG">
             <Lien stylelien='unePageHaut' lienvers="/MeuniereDeux" />
             <Lien stylelien='deuxPagesHaut' lienvers="/MeuniereTrois" />
             <Roue color="blue" index={blueIndex} clickItem={clickBlueItem} />
